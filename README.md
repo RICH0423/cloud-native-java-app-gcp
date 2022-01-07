@@ -1,6 +1,16 @@
 # Cloud-native app development on GCP
 
-Use Quarkus to quickly create Cloud-native apps for GCP
+Use Quarkus to quickly create cloud-native apps for GCP
+
+GCP service integration
+
+| Feature   |      Service      |  ref |
+|----------|:-------------:|------:|
+| Caching |  Memorystore for Redis  |  |
+| Structure/relation data persistent |  Cloud SQL for PostgreSQL   |    |
+| Async messaging | Cloud PubSub |    |
+|  |  |    |
+
 
 ## Running the application in dev mode
 
