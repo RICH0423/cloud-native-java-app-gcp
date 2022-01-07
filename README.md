@@ -37,3 +37,8 @@ Or, if you don't have GraalVM installed, you can run the native executable build
 # execute your native executable with: 
 ./target/quarkus-app-1.0.0-SNAPSHOT-runner
 ```
+
+create a container-image using the native executable
+```
+./mvnw package -Pnative -Dquarkus.native.container-build=true -Dquarkus.container-image.build=true
+```
